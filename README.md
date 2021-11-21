@@ -1,13 +1,10 @@
 # ARCHITECTURE
 
 ## DOCUMENTATION
+    - ./DOCUMENTATION/instruções.pdf
 
 ## DOCKER
-    
+    - ./DOCKER/php/8.1
 ## BACKEND
-
-## FRONTEND
-
-## storageDBs
-
-## General References
+    - ./backend/datas.php
+    - ./backend/temperaturas.php
