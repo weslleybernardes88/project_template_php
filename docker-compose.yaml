@@ -8,5 +8,11 @@ services:
       ports:
         - 80:80
       volumes:
-        - ./app:/var/www/html/
+        - ./backend:/var/www/html/
+      networks:
+        - backend
       hostname: localhost
+
+networks:
+  backend:
+    
