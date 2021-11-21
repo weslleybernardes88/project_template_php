@@ -1,9 +1,9 @@
 version: '3'
 
 services:
-    app:
+    backend:
       build: docker/php/8.1     
-      container_name: php
+      container_name: backend_${projectName}
       tty: true
       ports:
         - 80:80
